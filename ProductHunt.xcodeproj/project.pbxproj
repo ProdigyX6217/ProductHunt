@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D005DD926409AB0009B7786 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D005DD826409AB0009B7786 /* PostTableViewCell.swift */; };
 		4D005E1F2640B820009B7786 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D005E1E2640B820009B7786 /* NetworkManager.swift */; };
+		4D005E732640E90F009B7786 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D005E722640E90F009B7786 /* CommentsViewController.swift */; };
 		4D5BB3D82637D6390010FDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BB3D72637D6390010FDEC /* AppDelegate.swift */; };
 		4D5BB3DA2637D6390010FDEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BB3D92637D6390010FDEC /* SceneDelegate.swift */; };
 		4D5BB3DC2637D6390010FDEC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BB3DB2637D6390010FDEC /* FeedViewController.swift */; };
@@ -16,11 +17,13 @@
 		4D5BB3E12637D63B0010FDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BB3E02637D63B0010FDEC /* Assets.xcassets */; };
 		4D5BB3E42637D63B0010FDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BB3E22637D63B0010FDEC /* LaunchScreen.storyboard */; };
 		4DA8F36A2637E8AD009CA0D8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8F3692637E8AD009CA0D8 /* Post.swift */; };
+		4DBAA8572640F18E0077521C /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D005DD826409AB0009B7786 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		4D005E1E2640B820009B7786 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4D005E722640E90F009B7786 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		4D5BB3D42637D6390010FDEC /* ProductHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5BB3D72637D6390010FDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D5BB3D92637D6390010FDEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		4D5BB3E32637D63B0010FDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5BB3E52637D63B0010FDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA8F3692637E8AD009CA0D8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,9 @@
 				4DA8F3692637E8AD009CA0D8 /* Post.swift */,
 				4D005E1E2640B820009B7786 /* NetworkManager.swift */,
 				4D5BB3DB2637D6390010FDEC /* FeedViewController.swift */,
+				4D005E722640E90F009B7786 /* CommentsViewController.swift */,
 				4D005DD826409AB0009B7786 /* PostTableViewCell.swift */,
+				4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */,
 				4D5BB3DD2637D6390010FDEC /* Main.storyboard */,
 				4D5BB3E02637D63B0010FDEC /* Assets.xcassets */,
 				4D5BB3E22637D63B0010FDEC /* LaunchScreen.storyboard */,
@@ -148,6 +154,8 @@
 			files = (
 				4D005E1F2640B820009B7786 /* NetworkManager.swift in Sources */,
 				4D5BB3DC2637D6390010FDEC /* FeedViewController.swift in Sources */,
+				4D005E732640E90F009B7786 /* CommentsViewController.swift in Sources */,
+				4DBAA8572640F18E0077521C /* CommentTableViewCell.swift in Sources */,
 				4D5BB3D82637D6390010FDEC /* AppDelegate.swift in Sources */,
 				4D005DD926409AB0009B7786 /* PostTableViewCell.swift in Sources */,
 				4D5BB3DA2637D6390010FDEC /* SceneDelegate.swift in Sources */,
