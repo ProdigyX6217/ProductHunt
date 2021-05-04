@@ -18,6 +18,7 @@
 		4D5BB3E42637D63B0010FDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BB3E22637D63B0010FDEC /* LaunchScreen.storyboard */; };
 		4DA8F36A2637E8AD009CA0D8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8F3692637E8AD009CA0D8 /* Post.swift */; };
 		4DBAA8572640F18E0077521C /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */; };
+		4DBAA8842641633A0077521C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAA8832641633A0077521C /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4D5BB3E52637D63B0010FDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA8F3692637E8AD009CA0D8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		4DBAA8832641633A0077521C /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				4D005E1E2640B820009B7786 /* NetworkManager.swift */,
 				4D5BB3DB2637D6390010FDEC /* FeedViewController.swift */,
 				4D005E722640E90F009B7786 /* CommentsViewController.swift */,
+				4DBAA8832641633A0077521C /* Comment.swift */,
 				4D005DD826409AB0009B7786 /* PostTableViewCell.swift */,
 				4DBAA8562640F18E0077521C /* CommentTableViewCell.swift */,
 				4D5BB3DD2637D6390010FDEC /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				4D5BB3D82637D6390010FDEC /* AppDelegate.swift in Sources */,
 				4D005DD926409AB0009B7786 /* PostTableViewCell.swift in Sources */,
 				4D5BB3DA2637D6390010FDEC /* SceneDelegate.swift in Sources */,
+				4DBAA8842641633A0077521C /* Comment.swift in Sources */,
 				4DA8F36A2637E8AD009CA0D8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
