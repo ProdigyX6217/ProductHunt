@@ -5,6 +5,8 @@
 //  Created by Student Laptop_7/19_1 on 4/27/21.
 //
 
+import Foundation
+
 // A product retreived from the ProductHunt API
 struct Post {
     // Various properties of a post that we either need or want to display
